@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.head{
+    display: block;
+}
+.head-center ul{
+    list-style-type: none;
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+.head-center a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    float:right;
+}
+.head-center a:hover{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.main{
+    margin-left: 200px;
+    margin-right: 200px;
+    grid-area: 1em;
+    
+}
+.main-head{
+    border-radius: 10px;
+    border-color: aqua;  
+    position: relative;
+   
+}
+.button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+
+}
+.button:hover{
+    background-color: gray;
+}
+.html2023c{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.main-main{
+    display: flex;
+    gap: 1em;
+}
+.main-main-left{
+    width: 150px;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.main-main-right{
+    display: flex;
+    gap: 1em;
+    flex-grow: 1;
+    flex-direction: column;
+}
+.item-left1{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+.item-left2{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+.item-left2:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.8s ;
+}
+.iteam-last{
+    width: 150px;
+    height: 230px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+}
+.generat-link{
+    padding-top: 30px;
+    border-radius: 2px;
+    border: 1px;
+    text-align: center;   
+}
+.img2{
+    padding: 10px;
+}
+.meet{
+    margin-top: -22px;
+    margin-left: 25px;
+}
+.dot{
+    margin-top: -17px;
+    margin-left: 125px;
+}
+.button1{
+    background-color: white;
+    color: blue;
+    border-radius: 2px;
+    border-color: rgb(186, 181, 181, 181);
+
+}
+.button1:hover{
+    transition: 0.8s;
+    color: white;
+    background-color: gray;
+}
+.syle-leftbar{
+    padding-top: 10px; 
+    padding-left: 10px;
+}
+.syle-leftbar-small{
+    padding-top: 10px; 
+    padding-left: 10px;
+    
+    color: gray;
+}
+
+.item-right-number1{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    height: 80px;
+    align-content: center;
+    
+}
+.item-right-number2{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    height: 80px;
+    align-content: center;
+    position: relative;
+    
+}
+
+.item-right-number3{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    height: 80px;
+    align-content: center;
+    
+}
+
+.item-right-number4{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    height: 80px;
+    align-content: center;
+}
+.item-right-number5{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    height: 80px;
+    align-content: center;
+}
+.img-profile{
+    width: 30px;
+    position: absolute;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.announce{
+    margin-top: 5px;
+    margin-left: 50px;
+    color: gray;
+
+}
+.view{
+    text-align: right;
+    color: blue;
+    margin-top: 30px;
+    padding: 10px;
+}
+.view:hover{
+    color: gray;
+    transition: 0.8s;
+}
+.img-note{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: -35px;
+}
+.statement{
+    margin-left: 50px;
+    margin-top: -5px;
+}
+.statement2{
+    margin-left: 50px; 
+}
+.item-right-number1:hover{
+    color: gray;
+    transition: 0.5s;
+}
+.item-right-number2:hover{
+    background-color: gray;
+    color: rgb(219, 212, 212);
+    transition: 0.5s;
+}
+.item-right-number3:hover{
+    background-color: gray;
+    color: rgb(219, 212, 212);
+    transition: 0.5s;
+}
+.item-right-number4:hover{
+    background-color: gray;
+    color: rgb(219, 212, 212);
+    transition: 0.5s;
+}
+.item-right-number5:hover{
+    background-color: gray;
+    color: rgb(219, 212, 212);
+    transition: 0.5s;
+}
+.imgb{
+    border: 2px solid gray;
+}
+
+
+
